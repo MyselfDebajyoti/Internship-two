@@ -211,9 +211,7 @@ const HowItWorks: React.FC = () => {
       style={{ backgroundImage: "url('/Frame 1000003145.png')" }}
     >
       <div className="max-w-6xl mx-auto px-4">
-        <h1 className="text-5xl font-medium text-center mb-2 tracking-wider">
-          How it works
-        </h1>
+        <h1 className="text-5xl font-medium text-center mb-2 ">How it works</h1>
         <p className="text-center mb-20 mt-6">
           It's super easy to verify your email addresses with Verifier.
         </p>

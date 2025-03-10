@@ -7,13 +7,13 @@ const HeroSection: React.FC = () => {
   return (
     <section
       className="w-full bg-cover bg-top bg-no-repeat text-white py-16 px-4 md:px-8"
-      style={{ backgroundImage: "url('/features.png')" }}
+      style={{ backgroundImage: "url('/features (2).png')" }}
     >
       <div className="max-w-6xl mx-auto">
         {/* Heading Section */}
         <div className="text-center mb-12 mt-38">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium mb-4 leading-tight tracking-tight">
-            World's most accurate email
+            World`s most accurate email
             <br />
             verifier and validator online
           </h1>
@@ -120,7 +120,7 @@ const HeroSection: React.FC = () => {
             <div>
               <Link
                 href="/start"
-                className="inline-block px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-md transition-colors duration-300 shadow-lg"
+                className="inline-block px-8 py-3 bg-gradient-to-r from-[#5027B1]  to-[#237FD7] hover:bg-none hover:bg-white hover:text-[#5029B1] text-white font-medium rounded-md transition-colors duration-300 shadow-lg"
               >
                 Dive in!
               </Link>
@@ -166,13 +166,13 @@ const HeroSection: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-32 items-center  mt-25">
           <div className="flex justify-center lg:justify-end">
-            <div className="relative w-full h-full max-w-md mr-10 ">
+            <div className="relative w-full h-full max-w-md mr-10 flex-1">
               <Image
                 src="/image 3.png"
                 alt="Email Validator Dashboard"
                 width={350}
                 height={550}
-                className="rounded-lg  h-full w-full"
+                className="rounded-lg  h-full w-full object-cover "
                 priority
               />
               {/* Fallback for when the image is not available */}
@@ -218,7 +218,7 @@ const HeroSection: React.FC = () => {
                   />
                 </svg>
                 <h2 className="text-xl font-medium opacity-55">
-                  Bulk email verifier
+                  Email Verification API
                 </h2>
               </div>
               <h3 className="text-2xl font-bold mb-3">
@@ -295,7 +295,7 @@ const HeroSection: React.FC = () => {
             <div>
               <Link
                 href="/start"
-                className="inline-block px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-md transition-colors duration-300 shadow-lg"
+                className="inline-block px-8 py-3 bg-gradient-to-r from-[#5027B1]  to-[#237FD7] hover:bg-none hover:bg-white hover:text-[#5029B1] text-white font-medium rounded-md transition-colors duration-300 shadow-lg"
               >
                 Dive in!
               </Link>

@@ -562,8 +562,8 @@ export default function PricingPage() {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-no-repeat pb-15"
-      style={{ backgroundImage: "url('/Frame 1000003147.png')" }}
+      className="min-h-screen bg-cover bg-top bg-no-repeat pb-15"
+      style={{ backgroundImage: "url('/features (3).png')" }}
     >
       <div className="text-center pt-10 mb-15">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">
@@ -579,8 +579,8 @@ export default function PricingPage() {
         <div className="relative flex flex-col md:flex-row ">
           {/* Left Box */}
           <div
-            className=" bg-center bg-no-repeat p-8 rounded-3xl shadow-lg w-[580px] h-[520px] z-10"
-            style={{ backgroundImage: "url('/credit selector card (1).png')" }}
+            className=" bg-center bg-no-repeat p-8 rounded-3xl shadow-lg w-[580px] h-[520px] z-10 border-[#5F69A1] border-2"
+            style={{ backgroundImage: "url('/credit selector card (2).png')" }}
           >
             <div className="flex items-center space-x-3 mb-6 ml-32 mt-20">
               <span className={` ${monthly ? "text-[#5FAEF8] text-2xl" : ""}`}>
@@ -619,60 +619,58 @@ export default function PricingPage() {
               step="1000"
               value={emails}
               onChange={handleEmailChange}
-              className="w-[80%] mt-10 ml-12"
+              className="w-[80%] mt-10 ml-12  bg-gray-500 rounded-lg"
             />
 
             <p className="text-white text-3xl font-bold mt-6 text-center">
               ${(emails * 0.009).toFixed(2)} USD
               <span className="text-sm font-light">/month</span>
             </p>
-            <button className="bg-[#3F51B5] text-white py-2 px-6 rounded-lg mt-4 text-center ml-45">
+            <button className="bg-gradient-to-r from-[#5027B1]  to-[#237FD7] hover:bg-none hover:bg-white hover:text-[#5029B1] text-white py-2 px-6 rounded-lg mt-4 text-center ml-45">
               Buy this now
             </button>
           </div>
 
           {/* Right Box */}
           <div
-            className=" bg-[#271D37] p-6 rounded-r-2xl shadow-lg w-[283px] h-[470px] relative top-6"
-            // style={{ backgroundImage: "url('/card (1).png')" }}
+            className=" bg-center bg-repeat p-6 rounded-r-2xl w-[283px] h-[470px] relative top-6 border-2 border-[#2A2A43] shadow-[#10142A]/50 shadow-xl"
+            style={{ backgroundImage: "url('/monthly rates card.png')" }}
           >
             <h3 className="text-white mb-7 text-xl pl-3">Monthly rates</h3>
             <div className="text-gray-400 text-sm flex flex-col gap-2">
               <p className="mb-1  hover:bg-[#596793] rounded-md pl-3 cursor-pointer py-1 ">
-                from 2,000/mo{" "}
-                <span className="text-white pl-10">0.009 USD</span>
+                from 2,000/mo <span className="text-white pl-7">0.009 USD</span>
               </p>
               <p className="mb-1 hover:bg-[#596793] rounded-md pl-3 cursor-pointer py-1">
-                from 5,000/mo{" "}
-                <span className="text-white pl-10">0.008 USD</span>
+                from 5,000/mo <span className="text-white pl-7">0.008 USD</span>
               </p>
               <p className="mb-1 hover:bg-[#596793] rounded-md pl-3 cursor-pointer py-1">
                 from 10,000/mo{" "}
-                <span className="text-white pl-10">0.0075 USD</span>
+                <span className="text-white pl-4">0.0075 USD</span>
               </p>
               <p className="mb-1 hover:bg-[#596793] rounded-md pl-3 cursor-pointer py-1">
                 from 25,000/mo{" "}
-                <span className="text-white pl-10">0.007 USD</span>
+                <span className="text-white pl-7">0.007 USD</span>
               </p>
               <p className="mb-1 hover:bg-[#596793] rounded-md pl-3 cursor-pointer py-1">
                 from 50,000/mo{" "}
-                <span className="text-white pl-10">0.007 USD</span>
+                <span className="text-white pl-7">0.007 USD</span>
               </p>
               <p className="mb-1 hover:bg-[#596793] rounded-md pl-3 cursor-pointer py-1">
                 from 100,000/mo{" "}
-                <span className="text-white pl-8">0.0039 USD</span>
+                <span className="text-white pl-3">0.0039 USD</span>
               </p>
               <p className="mb-1 hover:bg-[#596793] rounded-md pl-3 cursor-pointer py-1">
                 from 250,000/mo{" "}
-                <span className="text-white pl-7">0.0035 USD</span>
+                <span className="text-white pl-3">0.0035 USD</span>
               </p>
               <p className="mb-1 hover:bg-[#596793] rounded-md pl-3 cursor-pointer">
                 from 500,000/mo{" "}
-                <span className="text-white pl-8">0.003 USD</span>
+                <span className="text-white pl-3">0.003 USD</span>
               </p>
               <p className="mb-1 hover:bg-[#596793] rounded-md pl-3 cursor-pointer py-1">
                 from 1,000,000/mo{" "}
-                <span className="text-white pl-4">0.00225 USD</span>
+                <span className="text-white pl-2">0.002 USD</span>
               </p>
             </div>
           </div>

@@ -102,7 +102,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
-        className={`min-h-screen bg-[#09061A] text-white ${inter.className}`}
+        className={`min-h-screen bg-cover bg-top bg-no-repeat text-white ${inter.className}`}
+        style={{ backgroundImage: "url('/features (3).png')" }}
       >
         <div className="container mx-auto pl-4 pr-20 py-25">
           <div className="lg:flex gap-5">
@@ -114,7 +115,7 @@ export default function Home() {
               <p className="text-lg mb-6">
                 Clean, optimize, and <br></br> supercharge your email lists.
               </p>
-              <button className="bg-gradient-to-r from-[#5027B1]  to-[#237FD7]  text-white font-medium py-2 px-6 rounded-lg hover:bg-none hover:bg-white hover:text-[#5029B1] ">
+              <button className="bg-gradient-to-r from-[#5027B1]  to-[#237FD7] hover:bg-none hover:bg-white hover:text-[#5029B1] text-white font-medium py-2 px-6 rounded-lg  ">
                 Dive in!
               </button>
             </div>
@@ -125,7 +126,7 @@ export default function Home() {
                 {features.map((feature, index) => (
                   <div
                     key={index}
-                    className=" bg-center  bg-no-repeat  backdrop-blur-xl rounded-2xl   p-6 "
+                    className=" bg-center  bg-no-repeat  backdrop-blur-xl rounded-2xl border-[#24223F] border-2 p-6 "
                     style={{ backgroundImage: "url('/card.png')" }}
                   >
                     <div className="bg-[#4A4766] rounded-lg w-10 h-10 flex items-center justify-center mb-8">
