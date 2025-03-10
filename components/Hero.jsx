@@ -177,13 +177,13 @@ export default function Home() {
       </header>
 
       <main className="flex-grow flex flex-col items-center justify-center text-center">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Email Checker
-            <span className="block text-gray-300">and Verifier</span>
+            <span className="block text-gray-300"> and Verifier</span>
           </h1>
 
-          <p className="text-lg mb-12 text-gray-300 font-montserrat">
+          <p className="text-lg mb-12 text-gray-300 ">
             Reduce bounce rate and improve your email marketing performance with
             our verifier.
           </p>
@@ -192,18 +192,21 @@ export default function Home() {
             onSubmit={handleSubmit}
             className="w-full max-w-2xl mx-auto mb-12"
           >
-            <div className="flex flex-col md:flex-row gap-2 shadow-3xl shadow-[#1A2943]">
+            <div
+              className="flex flex-col md:flex-row gap-2   shadow-xl border-[#373389] border-2 shadow-[#253650]/70 bg-cover bg-repeat px-1 rounded-2xl py-1"
+              style={{ backgroundImage: "url('/input field.png')" }}
+            >
               <input
                 type="email"
                 placeholder="Enter an email to verify"
-                className="flex-grow px-4 py-3 rounded-2xl bg-[#3A497A] bg-opacity-50 border border-indigo-600 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-4xl shadow-[#1A2943] text-white placeholder-white"
+                className="flex-grow px-4 py-3 rounded-2xl  bg-opacity-50 border-none  focus:outline-none   shadow-4xl shadow-[#1A2943] text-white placeholder-white"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
               />
               <button
                 type="submit"
-                className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-200 font-medium"
+                className="px-8 py-3 bg-[#3976CF] hover:bg-blue-700 rounded-xl transition-colors duration-200 font-medium"
               >
                 Verify
               </button>
