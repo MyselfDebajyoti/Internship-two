@@ -13,7 +13,7 @@ const Footer = () => {
         <h2 className="text-7xl font-bold mb-4">
           <span className="text-white">TrySee Verifier</span>
         </h2>
-        <h3 className="text-6xl text-gray-400 mb-12 font-medium">in action</h3>
+        <h3 className="text-6xl text-gray-400 mb-12 font-medium">in Action</h3>
 
         <Link href="/demo" className="inline-block">
           <button className="bg-gradient-to-r from-[#5027B1]  to-[#237FD7] hover:bg-none hover:bg-white hover:text-[#5029B1] text-white py-3 px-8 rounded-lg text-lg font-medium hover:opacity-90 transition-opacity">

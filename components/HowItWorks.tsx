@@ -116,7 +116,7 @@
 // export default HowItWorks;
 
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 // Icons for steps with increased size
 const UploadIcon = () => (
@@ -213,7 +213,7 @@ const HowItWorks: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4">
         <h1 className="text-5xl font-medium text-center mb-2 ">How it works</h1>
         <p className="text-center mb-20 mt-6">
-          It's super easy to verify your email addresses with Verifier.
+          It&apos;s super easy to verify your email addresses with Verifier.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-24">
